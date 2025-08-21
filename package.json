@@ -1,17 +1,14 @@
 {
-  "name": "d3",
+  "name": "chart-service",
   "version": "1.0.0",
-  "type": "module",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "d3": "^7.9.0",
-    "jsdom": "^26.1.0"
+    "express": "^4.19.2",
+    "jsdom": "^24.0.0"
   }
 }
